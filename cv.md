@@ -3,3 +3,5 @@
 #### Junior front-end developer
 
 ---
+
+## Contact information
