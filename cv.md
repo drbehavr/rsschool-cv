@@ -4,11 +4,15 @@
 
 ---
 
+---
+
 ## Contact information
 
 - E-mail:spasibousam@gmail.com
 
 - Telegram: @drbehar
+
+---
 
 ---
 
@@ -27,6 +31,8 @@
 
 ---
 
+---
+
 ## Code example
 
 ```javascript
@@ -40,4 +46,25 @@ const func = (num) => {
 
 ---
 
-##
+---
+
+## Education
+
+- 2008-2017 NSMU, Arkhangelsk - pediatrician,child endocrinologist
+- sinse summer 2021- started studying front-end development by myself from scratch. I’ve finished the course stage 0 Front-End in RS School. Stage 1 in progress now
+- Basic JS: I’ve completed the course by https://www.freecodecamp.org/
+
+---
+
+---
+
+## Languages
+
+- russian - native.
+
+- English A2, now I am improving my English in speaking club.
+- Hebrew, alef level. I’ve started to learning Hebrew by myself from scratch a few weeks ago.
+
+---
+
+---
