@@ -20,4 +20,11 @@
 
 ## Skills
 
--
+- HTML5, CSS3
+- JavaScript (basic knowledge)
+- Git, GitHub
+- VS Code
+
+---
+
+## Code example
