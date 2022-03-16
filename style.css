@@ -79,6 +79,29 @@ li {
 }
 /*header*/
 
+/*aside*/
+.aside {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  padding-top: 30px;
+  background-color: gainsboro;
+  text-transform: uppercase;
+  color: black;
+}
+.ava {
+  border: 0px;
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+}
+.aside-contacts-links {
+  line-height: 50px;
+}
+/*aside*/
+
 /*footer*/
 .footer-contain {
   display: flex;
