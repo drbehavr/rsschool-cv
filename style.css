@@ -8,7 +8,7 @@ body {
   border: 1px solid yellow;
   margin: 0;
   padding: 0;
-  font-family: "Arial", serif;
+  font-family: "Verdana", sans-serif;
   color: black;
   background-color: lavender;
 }
@@ -25,14 +25,16 @@ body {
 h2 {
   text-transform: uppercase;
 }
+h1 {
+  padding: 24px;
+}
 /*header*/
 .header {
   border: 1px solid yellowgreen;
-  width: 100%;
-  /*height: 150px;*/
+
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   grid-column-end: 3;
   grid-column-start: 1;
@@ -101,7 +103,18 @@ li {
   line-height: 50px;
 }
 /*aside*/
+/*main*/
+.main {
+  padding: 0 40px 0 50px;
+  background-color: #ffffff;
+}
+/*about*/
+.main-about {
+  font-size: 16px;
+  padding: 10px;
+}
 
+/*main*/
 /*footer*/
 .footer-contain {
   display: flex;
