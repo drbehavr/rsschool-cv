@@ -1,11 +1,11 @@
 /*common property*/
 html {
   scroll-behavior: smooth;
-  border: 1px solid red;
+  /* border: 1px solid red;*/
 }
 
 body {
-  border: 1px solid yellow;
+  /* border: 1px solid yellow;*/
   margin: 0;
   padding: 0;
   font-family: "Verdana", sans-serif;
@@ -13,7 +13,7 @@ body {
   background-color: lavender;
 }
 .wrapper {
-  border: 1px solid green;
+  /*border: 1px solid green;*/
   position: relative;
   display: grid;
   grid-template-columns: 1fr 3fr;
@@ -25,12 +25,12 @@ body {
 h2 {
   text-transform: uppercase;
 }
-/*h1 {
-  padding: 24px;
-}*/
+p {
+  line-height: 1.75rem;
+}
 /*header*/
 .header {
-  border: 1px solid yellowgreen;
+  /* border: 1px solid yellowgreen;*/
 
   display: flex;
   flex-direction: column;
@@ -46,7 +46,7 @@ h2 {
   letter-spacing: 5px;
 }
 .nav {
-  border: 1px solid pink;
+  /*border: 1px solid pink;*/
   width: 100%;
   justify-content: center;
   display: flex;
@@ -140,16 +140,23 @@ li {
 /*expirience*/
 .projects {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 .project-item {
   width: 40%;
   margin-bottom: 25px;
 }
 .project-item p {
+  font-family: inherit;
   font-size: 13px;
   text-align: justify;
   line-height: 20px;
+}
+.project-item a {
+  text-decoration: none;
+  font-family: inherit;
 }
 .project-item:hover img {
   transform: scale(1.02);
