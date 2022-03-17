@@ -1,0 +1,244 @@
+/*common property*/
+html {
+  scroll-behavior: smooth;
+  /* border: 1px solid red;*/
+}
+
+body {
+  /* border: 1px solid yellow;*/
+  margin: 0;
+  padding: 0;
+  font-family: "Verdana", sans-serif;
+  color: black;
+  background-color: lavender;
+}
+.wrapper {
+  /*border: 1px solid green;*/
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 250px auto;
+  margin: 0 auto;
+  max-width: 1024px;
+  background-color: #fff;
+}
+h2 {
+  text-transform: uppercase;
+}
+p {
+  line-height: 1.75rem;
+}
+/*header*/
+.header {
+  /* border: 1px solid yellowgreen;*/
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  grid-column-end: 3;
+  grid-column-start: 1;
+  grid-row-start: 1;
+  background-color: black;
+  text-transform: uppercase;
+
+  color: #dfd7d1;
+  letter-spacing: 5px;
+}
+.nav {
+  /*border: 1px solid pink;*/
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.title-container {
+  text-align: center;
+  max-width: 90%;
+}
+.subtitle {
+  text-align: center;
+}
+.menu {
+  display: flex;
+  gap: 17px;
+  justify-content: center;
+  font-size: 13px;
+  text-transform: uppercase;
+  line-height: 80px;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+li {
+  list-style-type: none;
+  text-decoration: none;
+  padding-right: 13px;
+}
+.menu a {
+  color: ghostwhite;
+  text-decoration: none;
+}
+/*header*/
+
+/*aside*/
+.aside {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  padding-top: 30px;
+  background-color: gainsboro;
+  text-transform: uppercase;
+  color: black;
+}
+.ava {
+  border: 0px;
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+}
+.aside-contacts-links {
+  line-height: 50px;
+}
+/*aside*/
+/*main*/
+.main {
+  padding: 0 40px 0 50px;
+  background-color: #ffffff;
+}
+/*about*/
+.main-about {
+  font-size: 16px;
+  padding: 10px;
+}
+/*education*/
+.main-education-list {
+  padding-left: 0;
+}
+.main-education-list > li:not(:last-child) {
+  padding-bottom: 20px;
+}
+.main-education-list > li {
+  position: relative;
+  border-left: 1px solid #48433d;
+  padding-left: 30px;
+}
+.main-education-list > li::before {
+  position: absolute;
+  content: "";
+  border: 2px solid black;
+  /*border-radius: 50%;*/
+  height: 12px;
+  width: 12px;
+  left: -7px;
+  top: 4px;
+  background: white;
+}
+
+/*expirience*/
+.projects {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.project-item {
+  width: 40%;
+  margin-bottom: 25px;
+}
+.project-item p {
+  font-family: inherit;
+  font-size: 13px;
+  text-align: justify;
+  line-height: 20px;
+}
+.project-item a {
+  text-decoration: none;
+  font-family: inherit;
+}
+.project-item:hover img {
+  transform: scale(1.02);
+  transition: all 0.5s ease-in-out;
+}
+
+.project-item img {
+  width: 100%;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.project-item h3 {
+  margin: 0;
+  text-align: center;
+  font-size: 15px;
+  transition: all 0.5s ease-in-out;
+  line-height: 40px;
+}
+.project-item:hover h3 {
+  transition: all 0.5s ease-in-out;
+}
+.code {
+  border-radius: 50px;
+}
+
+/*skills*/
+.skills-item > li::before {
+  position: absolute;
+  content: "";
+  border: 2px solid black;
+  /*border-radius: 50%;*/
+  height: 12px;
+  width: 12px;
+  left: -7px;
+  top: 4px;
+  background: white;
+}
+.skills-item {
+  padding-left: 0;
+}
+.skills-item > li:not(:last-child) {
+  padding-bottom: 20px;
+}
+.skills-item > li {
+  position: relative;
+  border-left: 1px solid #48433d;
+  padding-left: 30px;
+}
+/*main*/
+/*footer*/
+
+.footer-contain {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.footer-list img {
+  background-color: #bdae82;
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+}
+.footer-list {
+  display: flex;
+  justify-content: space-around;
+  gap: 33px;
+  align-items: center;
+  font-family: inherit;
+  font-size: 1.25rem;
+  letter-spacing: 8px;
+}
+.footer-list > li {
+  color: black;
+  font-family: inherit;
+}
+.footer-list a {
+  text-decoration: none;
+  color: black;
+  font-family: inherit;
+}
+/*footer*/
