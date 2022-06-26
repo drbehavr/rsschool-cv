@@ -1,4 +1,4 @@
-/*common property*/
+/*common properties*/
 html {
   scroll-behavior: smooth;
   /* border: 1px solid red;*/
@@ -149,6 +149,7 @@ li {
   margin-bottom: 25px;
 }
 .project-item p {
+   color: #48433d;
   font-family: inherit;
   font-size: 13px;
   text-align: justify;
@@ -158,6 +159,7 @@ li {
   text-decoration: none;
   font-family: inherit;
 }
+
 .project-item:hover img {
   transform: scale(1.02);
   transition: all 0.5s ease-in-out;
@@ -170,6 +172,7 @@ li {
 }
 
 .project-item h3 {
+   color: #48433d;
   margin: 0;
   text-align: center;
   font-size: 15px;
@@ -179,9 +182,7 @@ li {
 .project-item:hover h3 {
   transition: all 0.5s ease-in-out;
 }
-.code {
-  border-radius: 50px;
-}
+
 
 /*skills*/
 .skills-item > li::before {
@@ -242,3 +243,29 @@ li {
   font-family: inherit;
 }
 /*footer*/
+@media (max-width:868px) and (min-width: 320px) {
+.wrapper {
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+}
+.js {
+   width: 100%;
+}
+.main-skills {
+   display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main-lang, 
+.main-about {
+   display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.project-item {
+   width: 100%;
+}
+}
